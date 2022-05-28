@@ -28,7 +28,7 @@
     "aws-sdk": "^2.395.0",
     "compromise": "^11.13.0",
     "node-fetch": "^2.3.0",
-    "probot": "^9.9.5",
+    "probot": "^12.2.3",
     "uuid": "^7.0.0"
   },
   "devDependencies": {
