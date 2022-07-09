@@ -2311,12 +2311,14 @@ compress-commons@^1.2.0:
     normalize-path "^2.0.0"
     readable-stream "^2.0.0"
 
-compromise@^11.13.0:
-  version "11.13.0"
-  resolved "https://registry.yarnpkg.com/compromise/-/compromise-11.13.0.tgz#f39ea17ae82a87a9eafd3d6c11ee651641470aec"
+compromise@^14.3.1:
+  version "14.4.0"
+  resolved "https://registry.yarnpkg.com/compromise/-/compromise-14.4.0.tgz#779d07c90b41606bb4624942ec841ae8a8806e24"
+  integrity sha512-09bovqZT1NX84o/ntjftaY2XMdnm9pLJxB8N7IgAPFwytRNSEevB0aBnVFSR85VyAr+Spcjy6bDk5BYXcKDWkg==
   dependencies:
-    efrt-unpack "2.0.3"
-    terser "^3.14.1"
+    efrt "2.6.0"
+    grad-school "0.0.5"
+    suffix-thumb "4.0.2"
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -2921,9 +2923,10 @@ ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
-efrt-unpack@2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/efrt-unpack/-/efrt-unpack-2.0.3.tgz#6ada57793e3dda16d182f6a371fbe3d135af9dc2"
+efrt@2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/efrt/-/efrt-2.6.0.tgz#27854df4b0f596bf7b4444b594a1a58cfad421ca"
+  integrity sha512-uVeV82e9c/n/8/QyWVbbt4jvvbVOvgYwnKE59KpwJ1DD7AGXWytU9v32v5SuvxKNl9V9JaudsMPtztJNY+Batg==
 
 emoji-regex@^7.0.1:
   version "7.0.3"
@@ -3958,6 +3961,11 @@ graceful-fs@^4.2.10:
 "graceful-readlink@>= 1.0.0":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
+
+grad-school@0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/grad-school/-/grad-school-0.0.5.tgz#9e7b2084f3e137965c19b63ef0dfe49867194f43"
+  integrity sha512-rXunEHF9M9EkMydTBux7+IryYXEZinRk6g8OBOGDBzo/qWJjhTxy86i5q7lQYpCLHN8Sqv1XX3OIOc7ka2gtvQ==
 
 graphlib@^2.1.1:
   version "2.1.7"
@@ -8303,7 +8311,7 @@ source-map-resolve@^0.5.0:
     source-map-url "^0.4.0"
     urix "^0.1.0"
 
-source-map-support@^0.5.6, source-map-support@~0.5.6:
+source-map-support@^0.5.6:
   version "0.5.10"
   resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.10.tgz#2214080bc9d51832511ee2bab96e3c2f9353120c"
   dependencies:
@@ -8600,6 +8608,11 @@ strip-outer@^1.0.0:
   dependencies:
     escape-string-regexp "^1.0.2"
 
+suffix-thumb@4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/suffix-thumb/-/suffix-thumb-4.0.2.tgz#9303c1be8252bf79d9c57e5737d7d849d1f6abc9"
+  integrity sha512-CCvCAr7JyeQoO+/lyq3P2foZI/xJz5kpG3L6kg2CaOf9K2/gaM9ixy/JTuRwjEK38l306zE7vl3JoOZYmLQLlA==
+
 superagent@^3.8.3:
   version "3.8.3"
   resolved "https://registry.yarnpkg.com/superagent/-/superagent-3.8.3.tgz#460ea0dbdb7d5b11bc4f78deba565f86a178e128"
@@ -8745,14 +8758,6 @@ term-size@^2.1.0:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/term-size/-/term-size-2.2.1.tgz#2a6a54840432c2fb6320fea0f415531e90189f54"
   integrity sha512-wK0Ri4fOGjv/XPy8SBHZChl8CM7uMc5VML7SqiQ0zG7+J5Vr+RMQDoHa2CNT6KHUnTGIXH34UDMkPzAUyapBZg==
-
-terser@^3.14.1:
-  version "3.14.1"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-3.14.1.tgz#cc4764014af570bc79c79742358bd46926018a32"
-  dependencies:
-    commander "~2.17.1"
-    source-map "~0.6.1"
-    source-map-support "~0.5.6"
 
 test-exclude@^5.0.0:
   version "5.0.0"
